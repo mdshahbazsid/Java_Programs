@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+        
+        <hibernate-mapping>
+          <class name="Date_14_08_2018.Employee" table="Employee">
+          <id column="Id" name="Id" type="java.lang.Integer">
+          
+          </id>
+          <property name="Name" type="string"/>
+          <property name="Address" type="string"/>
+          <property name="Phone" type="string"/>
+          </class>
+        </hibernate-mapping>
